@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Event Page - Byte Room</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oranienbaum:300,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    
+
+  </head>
+  
+
+<body><div class="event">
+<div class="event-left">
+  <div class="event-title">
+    <div>EVENT</div>
+    DIRECTORY</div>
+  <a href="" target="_blank"><div class="event-title-2">ADD AN EVENT</div></a>
+  <div class="event-blurb">
+    Let's dive into <b>Upcoming Events</b> to make most of your <b>time</b>. Click on the icons to the right to be directed to the <b>original event pages</b>. Use the following buttons to <b>filter</b> through the event selection.
+  </div>
+<button id="sort-by-date-button">Sort by Date</button>
+<button id="undo-sort-by-date-button" style="display:none;">Undo Sort</button>
+
+
+
+ 
+  <div class="event-filters filters">
+    <div class="button-group js-radio-button-group" data-filter-group="type">
+    <button class="button is-checked" data-filter="">show all</button>
+    <button class="button" data-filter=".fests">fests</button>
+    <button class="button" data-filter=".workshops">workshops</button>
+    <button class="button" data-filter=".hackathons">hackathons</button>
+    <button class="button" data-filter=".competitions">competitions</button>  
+  </div>
+
+    <h1>area</h1>
+    <div class="button-group js-radio-button-group" data-filter-group="area">
+    <button class="button is-checked" data-filter="">show all</button>
+    <button class="button" data-filter=".Kolkata">Kolkata</button>
+    <button class="button" data-filter=".Bangalore">Bangalore</button>
+    <button class="button" data-filter=".Rajarhat">Rajarhat</button>
+    <button class="button" data-filter=".Mumbai">Mumbai</button>
+    <button class="button" data-filter=".Delhi">Delhi</button>
+    <button class="button" data-filter=".Virtual">Virtual</button>
+    </div>
+    
+    <h1>Participation Group</h1>
+    <div class="button-group js-radio-button-group" data-filter-group="group">
+    <button class="button is-checked" data-filter="">show all</button>
+    <button class="button" data-filter=".uni">University Students</button>
+    <button class="button" data-filter=".school">School Students</button>
+    </div>
+    
+
+    
+    <h1>Fees</h1>
+    <div class="button-group js-radio-button-group" data-filter-group="fees">
+    <button class="button is-checked" data-filter="">show all</button>
+    <button class="button" data-filter=".paid">paid</button>
+    <button class="button" data-filter=".free">free</button>
+    </div>    
+    
+  </div>
+  
+</div>
+
+<div class="event-right"><div class="grid">
+  
+  <a href="images/1.png" target="_blank"><div class="event-icon fests Delhi Virtual uni paid" data-date="2023-05-04">
+    <img src="images/1.png">
+    <div><b>Ignition</b>
+      <small class="date-date"> 2023-05-04 </small></div>
+    </div></a>
+  
+  <a href="images/2.jpg" target="_blank"><div class="event-icon feminine hpink epurple young adult long modern melon" data-date="2023-04-04">
+    <img src="images/2.jpg">
+    <div><b>CodeCrush </b>
+      <small class="date-date"> 2023-04-03 </small></div>
+    </div></a>
+  
+  <a href="images/3.jpg" target="_blank"><div class="event-icon workshops Bangalore Virtual school free"data-date="2023-11-22">
+    <img src="images/3.jpg">
+    <div><b>Mastering Microsoft Excel</b>
+      <small class="date-date">2023-11-22</small></div>
+    </div></a>
+  
+  <a href="images/4.jpg" target="_blank"><div class="event-icon fests Bangalore uni paid" data-date="2023-10-06">
+    <img src="images/4.jpg">
+    <div><b>Fusion </b>
+      <small class="date-date">2023-10-06</small> </div>
+    </div></a>
+  
+  <a href="images/5.jpg" target="_blank"><div class="event-icon fests Mumbai uni paid" data-date="2023-08-12">
+    <img src="images/5.jpg">
+    <div><b>Nexus </b>
+      <small class="date-date">2023-08-12</small> </div>
+    </div></a>
+  
+  <a href="images/6.jpg" target="_blank"><div class="event-icon fests Kolkata free paid" data-date="2023-12-22">
+    <img src="images/6.jpg">
+    <div><b>Catalyst </b>
+      <small class="date-date">2023-12-22</small> </div>
+    </div></a>
+  
+  <a href="images/7.jpg" target="_blank"><div class="event-icon hackathon virtual uni school paid" data-date="2024-01-20">
+    <img src="images/7.jpg">
+    <div><b>HackInnovate</b>
+      <small class="date-date">2024-01-20</small></div>
+    </div></a>
+  
+  <a href="images/8.jpg" target="_blank"><div class="event-icon fests Kolkata uni paid" data-date="2023-09-11">
+    <img src="images/8.jpg">
+    <div><b>Apex </b>
+      <small class="date-date">2023-09-11</small> </div>
+    </div></a>
+  
+  <a href="images/9.jpg" target="_blank"><div class="event-icon hackathon Bangalore uni paid" data-date="2023-06-03">
+    <img src="images/9.jpg">
+    <div><b>Hack2Win</b>
+      <small class="date-date">2023-06-03</small></div>
+    </div></a>
+  
+  <a href="images/11.jpg" target="_blank"><div class="event-icon workshops virtual uni paid"data-date="2023-07-09">
+    <img src="images/11.jpg">
+    <div><b>Introduction to Coding with Python</b>
+      <small class="date-date">2023-07-09</small> </div>
+    </div></a>
+  
+  <a href="images/10.jpg" target="_blank"><div class="event-icon fests Rajarhat uni free" data-date="2023-11-12">
+    <img src="images/10.jpg">
+    <div><b>Velocity </b>
+      <small class="date-date">2023-11-12</small> </div>
+    </div></a>
+  
+  <a href="images/12.jpg" target="_blank"><div class="event-icon hackathon Kolkata uni paid" data-date="2024-02-02">
+    <img src="images/12.jpg">
+    <div><b>MegaHacks</b>
+      <small class="date-date">2024-02-02</small> </div>
+    </div></a>
+  
+  <a href="images/13.jpg" target="_blank"><div class="event-icon fests Delhi uni free" data-date="2023-07-12">
+    <img src="images/13.jpg">
+    <div><b>Aurora </b>
+      <small class="date-date">2023-07-12</small>
+</div>
+    </div></a>
+  
+  <a href="images/14.jpg" target="_blank"><div class="event-icon fests Bangalore uni free" data-date="2023-09-22">
+    <img src="images/14.jpg">
+    <div><b>Phoenix </b>
+      <small class="date-date">2023-09-22</small></div>
+    </div></a>
+  
+  <a href="images/15.jpg" target="_blank"><div class="event-icon hackathons Bangalore school paid" data-date="2023-10-12">
+    <img src="images/15.jpg">
+    <div><b>CodeConquest </b>
+      <small class="date-date">2023-10-12</small></div>
+    </div></a>
+  
+  <a href="images/16.jpg" target="_blank"><div class="event-icon fests Kolkata uni free" data-date="2023-11-05">
+    <img src="images/16.jpg">
+    <div><b>Enigma </b>
+      <small class="date-date">2023-11-05</small> </div>
+    </div></a>
+  
+  <a href="images/23.jpg" target="_blank"><div class="event-icon workshops Kolkata uni free"data-date="2023-06-23">
+    <img src="images/23.jpg">
+    <div><b>Digital Marketing Bootcamp</b>
+      <small class="date-date">2023-06-23</small>  </div>
+    </div></a>
+  
+  <a href="images/18.jpg" target="_blank"><div class="event-icon workshops Bangalore school free" data-date="2023-08-04">
+    <img src="images/18.jpg">
+    <div><b>Building Effective Teams</b>
+      <small class="date-date">2023-08-04</small>
+    </div>
+    </div></a>
+  
+  <a href="images/19.jpg" target="_blank"><div class="event-icon fests Kolkata school free" data-date="2023-12-14">
+      <img src="images/19.jpg">
+      <div><b>Cosmos </b>
+        <small class="date-date">2023-12-14</small>  </div>
+      </div></a>
+  
+  <a href="images/20.jpg" target="_blank"><div class="event-icon fests Delhi uni paid" data-date="2023-09-29">
+    <img src="images/20.jpg">
+    <div><b>Vortex </b>
+      <small class="date-date">2023-09-29</small>  </div>
+    </div></a>
+  
+  <a href="images/21.jpg" target="_blank"><div class="event-icon fests Kolkata uni paid" data-date="2023-08-27">
+    <img src="images/21.jpg">
+    <div><b>MUN for nations</b>
+      <small class="date-date">2023-08-27</small>  </div>
+    </div></a>
+  
+  <a href="images/22.jpg" target="_blank"><div class="event-icon hackathon Delhi uni free" data-date="2023-07-21">
+    <img src="images/22.jpg">
+    <div><b>InnoHack</b>
+      <small class="date-date">2023-07-21</small>  </div>
+    </div></a>
+  
+  <a href="images/17.jpg" target="_blank"><div class="event-icon fests Rajarhat Kolkata uni free" data-date="2023-12-12">
+    <img src="images/17.jpg">
+    <div><b>Kaleidoscope </b>
+      <small class="date-date">2023-12-12</small>  </div>
+    </div></a>
+  
+  <a href="images/24.jpg" target="_blank"><div class="event-icon workshops Virtual uni free" data-date="2023-07-30">
+    <img src="images/24.jpg">
+    <div><b>Web Design Fundamentals</b>
+      <small class="date-date">2023-07-30</small>  </div>
+    </div></a>
+  
+  <a href="images/25.jpg" target="_blank"><div class="event-icon fests Mumbai uni paid" data-date="2023-02-22">
+    <img src="images/25.jpg">
+    <div><b>Odyssey </b>
+      <small class="date-date">2023-02-22</small> </div>
+    </div></a>
+  
+  <a href="images/26.jpg" target="_blank"><div class="event-icon workshops Kolkata Virtual uni paid" data-date="2023-02-05">
+    <img src="images/26.jpg">
+    <div><b>Presentation Skills
+    </b>
+    <small class="date-date">2023-02-05</small>
+  </div>
+    </div></a>
+  
+  <a href="images/27.jpg" target="_blank"><div class="event-icon fests Mumbai school free" data-date="2024-01-06">
+    <img src="images/27.jpg">
+    <div><b>Momentum </b>
+      <small class="date-date">2024-01-06</small>  </div>
+    </div></a>
+  
+  <a href="images/33.jpg" target="_blank"><div class="event-icon fests Rajarhat uni paid" data-date="2023-10-25">
+    <img src="images/33.jpg">
+    <div><b>Synergy </b>
+      <small class="date-date">2023-10-25</small>  </div>
+    </div></a>
+  
+  <a href="images/29.jpg" target="_blank"><div class="event-icon fests Mumbai uni free" data-date="2023-09-14">
+    <img src="images/29.jpg">
+    <div><b>Spectrum </b>
+      <small class="date-date">2023-09-14</small>  </div>
+    </div></a>
+  
+  <a href="images/30.jpg" target="_blank"><div class="event-icon workshops Mumbai uni free" data-date="2023-08-16">
+    <img src="images/30.jpg">
+    <div><b>Cybersecurity Basics and Best Practices    </b>
+      <small class="date-date">2023-08-16</small> </div>
+    </div></a>
+  
+  <a href="images/31.jpg" target="_blank"><div class="event-icon hackathons Virtual uni free" data-date="2024-03-01">
+    <img src="images/31.jpg">
+    <div><b>HackMasters</b>
+      <small class="date-date">2024-03-01</small> </div>
+    </div></a>
+  
+  <a href="images/32.jpg" target="_blank"><div class="event-icon fests Delhi uni free" data-date="2023-03-16" >
+    <img src="images/32.jpg">
+    <div><b>Catalyst </b>
+      <small class="date-date">2023-03-16</small> </div>
+    </div></a>
+  
+  <a href="images/28.jpg" target="_blank"><div class="event-icon workshops Mumbai uni paid" data-date="2023-12-04">
+    <img src="images/28.jpg">
+    <div><b>Financial Planning for Young Adults    </b>
+      <small class="date-date">2023-12-04</small>  </div>
+    </div></a>
+  
+  <a href="images/34.jpg" target="_blank"><div class="event-icon fests Rajarhat uni free" data-date="2023-11-20">
+    <img src="images/34.jpg">
+    <div><b>Infinity </b>
+      <small class="date-date">2023-11-20</small> </div>
+    </div></a>
+  
+  <a href="images/35.jpg" target="_blank"><div class="event-icon fests Rajarhat Kolkata uni free" data-date="2023-07-26">
+    <img src="images/35.jpg">
+    <div><b>CodeHive </b>
+      <small class="date-date">2023-07-26</small>  </div>
+    </div></a>
+  
+  <a href="images/36.jpg" target="_blank"><div class="event-icon fests Kolkata uni paid" data-date="2023-09-06">
+    <img src="images/36.jpg">
+    <div><b>Zenith </b>
+      <small class="date-date">2023-09-06</small>  </div>
+    </div></a>
+  
+  <a href="images/37.jpg" target="_blank"><div class="event-icon workshops Delhi uni paid" data-date="2024-02-09">
+    <img src="images/37.jpg">
+    <div><b>Financial Planning for Young Adults</b>
+      <small class="date-date">2023-09-06</small>  </div>
+    </div></a>
+  
+  <a href="images/38.jpg" target="_blank"><div class="event-icon hackathons Kolkata uni paid" data-date="2023-03-30">
+    <img src="images/38.jpg">
+    <div><b>IdeaJam </b>
+      <small class="date-date">2023-03-30</small>  </div>
+    </div></a>
+  
+  <a href="images/39.jpg" target="_blank"><div class="event-icon fests Delhi uni free" data-date="2024-03-15">
+    <img src="images/39.jpg">
+    <div><b>Equinox </b>
+      <small class="date-date">2024-03-15</small>  </div>
+    </div></a>
+  
+
+</div>
+
+<script src="https://code.jquery.com/jquery-1.7.2.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="script.js">  </script>
+</body>
+
+</html>

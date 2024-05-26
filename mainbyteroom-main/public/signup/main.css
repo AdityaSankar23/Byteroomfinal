@@ -1,0 +1,103 @@
+/* * simply selects all the tags */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 50;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: url(system.webp);
+    /* background: linear-gradient(231deg, rgba(24,18,124,0.9445028011204482) 0%, rgba(9,121,90,0.6867997198879552) 49%, rgba(0,212,255,1) 100%); */
+    overflow-y: hidden;
+}
+form{
+    width: 350px;
+    height: 580px;
+    padding: 50px 75px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7%;
+    background: rgba( 255, 255, 255, 0.01 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.388);
+    transition-delay: 2s;
+    font-size:medium;
+}
+form:hover{
+    box-shadow: 0 0 50px 15px #488ae050;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    margin-bottom: 45px;
+    color: aliceblue;
+    font-size: 40px;
+}
+.textBox1{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+.textBox2{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+.textBox1 input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color:white;
+    height:30px;
+    font-size: 20px;
+}
+.textBox2 input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color:white;
+    height:30px;
+    font-size: 20px;
+}
+.loginBtn{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(24,18,124);
+    background: linear-gradient(231deg, rgba(24,18,124,0.9445028011204482) 0%, rgba(9,121,90,0.6867997198879552) 49%, rgba(0,212,255,1) 100%);;
+    background-size: 200%;
+    transition: 0.3s;
+    color: white;
+    font:bold;
+    font-size: 16px;
+}
+.loginBtn:hover{
+    background-position: right;
+    font-size: 17px;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+.signup{
+    color: white;
+    margin-top:65px;
+    text-align: center;
+}
+.signup a{
+    color: #ffffff63;
+}
